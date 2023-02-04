@@ -11,8 +11,18 @@
     <div id="membre4">
 
         <header class="membre4">
-            <h1>Nom</h1>
-            <h2>Profil (aspirant développeur/designer, front-end, back-end, full-stack)</h2>
+            <h1>JACQUELINE LEBEL</h1>
+            <!-- <h2>&lt;?= aspirante développeuse full-stack ?&gt;</h2> -->
+            <!-- <h2>&lt;x-profil :aspiration="$développeuse->full-stack" /&gt;</h2> -->
+            <h2>
+                <span class="attribut">:aspiration</span>
+                =
+                <span class="guillemets">"</span>
+                <span class="variable">$développeuse</span>
+                <span class="valeur">->full-stack</span>
+                <span class="guillemets">"</span>
+            </h2>
+            <!-- <h2>{{ $aspiration->développeuse($full_stack) }}</h2> -->
             <nav>
                 <ul>
                     <li><a href="index.html">ACCUEIL</a></li>
@@ -26,33 +36,45 @@
         </header>
         
         <main>
-            <section>
-                <h3>Objectifs</h3>
-                <h4>Court terme (après la formation) </h4>
-                <h4>Moyen terme (2-5 ans) </h4>
-                <h4>Long terme (5-10 ans)</h4>
-                <h4>Quelles sont vos attentes salariales (faites une recherche sur le salaire moyen du poste et considérez votre expérience)?</h4>
-            </section>
-            <section>
-                <h3>À propos de vous</h3>
-                <h4>Quels sont vos qualités (qu'est-ce que les gens diraient de vous)?</h4>
-                <h4>Quel est votre défaut (préférable de savoir, mais nécessaire de le mentionner si on ne vous pose pas la question)?</h4>
-                <h4>Comment aimez-vous travaillez en équipe (aire ouverte au bureau, discord à distance)?</h4>
-                <h4>Quelle est votre motivation à intégrer le domaine?</h4>
-                <h4>Quels sont vos intérêts/loisirs particuliers?</h4>
-            </section>
-            <section>
-                <h3>Expérience avec le poste</h3>
-                <h4>Quels sont les logiciels que vous utilisez/préférez?</h4>
-                <h4>Quels sont les projets sur lesquels vous avez travaillés?</h4>
-                <h4>Quel est le projet dont vous êtes le plus fier (pourquoi, difficultés rencontrées/solutions et exemple)?
-                </h4>
-            </section>
-            <section>
-                <h3>Expériences additionnelles</h3>
-                <h4>Quelles sont vos qualifications/certifications additionnelles pertinentes</h4>
-                <h4>Quels sont vos savoirs-être (ponctualité, organisation, sociabilité, capacité à travailler sous pression/périodes prolongées, service à la clientèle, travail d'équipe, etc.)</h4>
-            </section>
+            <div>
+                <section class="objectifs">
+                    <h3>OJBECTIFS</h3>
+                    <div>
+                        <h4>Court terme (après la formation)</h4>
+                        <h4>Moyen terme (2-5 ans)</h4>
+                        <h4>Long terme (5-10 ans)</h4>
+                        <h4>Quelles sont vos attentes salariales (faites une recherche sur le salaire moyen du poste et considérez votre expérience)?</h4>
+                    </div>
+                </section>
+                <section class="experience_travail">
+                    <h3>EXPÉRIENCE WEB</h3>
+                    <div>
+                        <h4>Quels sont les logiciels que vous utilisez/préférez?</h4>
+                        <h4>Quels sont les projets sur lesquels vous avez travaillés?</h4>
+                        <h4>Quel est le projet dont vous êtes le plus fier (pourquoi, difficultés rencontrées/solutions et exemple)?
+                        </h4>
+                    </div>
+                </section>
+            </div>
+            <div>
+                <section class="a_propos">
+                    <h3>À PROPOS</h3>
+                    <div>
+                        <h4>Quels sont vos qualités (qu'est-ce que les gens diraient de vous)?</h4>
+                        <h4>Quel est votre défaut (préférable de savoir, mais nécessaire de le mentionner si on ne vous pose pas la question)?</h4>
+                        <h4>Comment aimez-vous travaillez en équipe (aire ouverte au bureau, discord à distance)?</h4>
+                        <h4>Quelle est votre motivation à intégrer le domaine?</h4>
+                        <h4>Quels sont vos intérêts/loisirs particuliers?</h4>
+                    </div>
+                </section>
+                <section class="experience_additionnelles">
+                    <h3>AUTRES EXPÉRIENCES</h3>
+                    <div>
+                        <h4>Quelles sont vos qualifications/certifications additionnelles pertinentes</h4>
+                        <h4>Quels sont vos savoirs-être (ponctualité, organisation, sociabilité, capacité à travailler sous pression/périodes prolongées, service à la clientèle, travail d'équipe, etc.)</h4>
+                    </div>
+                </section>
+            </div>
         </main>
         
     </div>

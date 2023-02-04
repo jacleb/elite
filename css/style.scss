@@ -14,7 +14,7 @@ header {
 
   // AJOUT au template
   height: 13em;
-  width: 100vw;
+  width: 100%;
   
   nav {
     display: flex;
@@ -49,8 +49,7 @@ section {
 
 // ACCUEIL -----------------------------------
 header#accueil, 
-#membre4>header,
-#membre5>header {
+#membre4>header {
   background-color: #111;
   color: white;
   font-family: 'Heebo', sans-serif;
@@ -140,9 +139,101 @@ header#accueil,
 
   // HEADER
   .membre4 {
-    background-color: lightpink;
+    background-color: #111;
+
+    a {
+      color: rgb(115, 115, 115);
+    }
+
+    .actif {
+      color: black;
+    }
+
+    h2 {
+      font-weight: 300;
+
+      .attribut {
+        color:rgb(198, 136, 255);
+      }
+
+      .guillemets {
+        color: rgb(255, 167, 135);
+      }
+      
+      .variable {
+        color: rgb(183, 255, 74);
+      }
+
+      .valeur {
+        color:rgb(128, 219, 255);
+      }
+    }
   }
 
+  main {
+    background: #111;
+    flex-wrap: wrap;
+    font-family: 'Heebo', sans-serif;
+    gap: 5px;
+    margin: 1rem;
+
+      section {
+        height: 42vh;
+        width: 42vw;
+
+        h3 {
+          font-weight: 500;
+          color: rgba(0, 0, 0, 0.5);
+          margin-top: 0;
+          text-align: right;
+        }
+      }
+  
+      .objectifs {
+        background-color: rgb(128, 219, 255);
+
+        &:hover {
+          box-shadow: 0 0 1rem rgba(128, 219, 255, 0.75);
+          h3 {
+            color: rgba(0, 0, 0, 0.75);
+          }
+        }
+      }
+      
+      .a_propos {
+        background-color: rgb(198, 136, 255);
+
+        &:hover {
+          box-shadow: 0 0 0.6rem rgba(198, 136, 255, 0.75);
+          h3 {
+            color: rgba(0, 0, 0, 0.75);
+          }
+        }
+      }      
+      
+      .experience_travail {
+        background-color: rgb(183, 255, 74);
+
+        &:hover {
+          box-shadow: 0 0 0.6rem rgba(183, 255, 74, 0.75);
+          h3 {
+            color: rgba(0, 0, 0, 0.75);
+          }
+        }
+      }
+  
+      .experience_additionnelles {
+        background-color: rgb(255, 167, 135);
+        
+        &:hover {
+          box-shadow: 0 0 0.8rem rgba(255, 167, 135, 0.75);
+          h3 {
+            color: rgba(0, 0, 0, 0.75);
+          }
+        }
+      }
+    }
+    
 }
 
 
