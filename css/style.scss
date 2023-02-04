@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900');
+
+// GÉNÉRAL -----------------------------------
+body {
+  font-family: Arial, sans-serif;
+  margin: 0px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  // AJOUT au template
+  height: 13em;
+  width: 100vw;
+  
+  nav {
+    display: flex;
+    justify-content: center;
+
+    ul {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+      padding-inline-start: 0px;
+
+      //AJOUT au template
+      margin-bottom: 0px;
+    }
+  }
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+section {
+  width: 60%;
+  margin: 20px;
+  padding: 20px;
+  text-align: left;
+}
+
+
+// ACCUEIL -----------------------------------
+header#accueil, 
+#membre4>header,
+#membre5>header {
+  background-color: #111;
+  color: white;
+  font-family: 'Heebo', sans-serif;
+  letter-spacing: 0.20rem;
+  
+  h1 {
+    font-weight: 200;
+  }
+
+  h2 {
+    font-weight: 200;
+    letter-spacing: 0.2rem;
+    
+    span {
+      color: greenyellow;
+      font-weight: 300;
+      letter-spacing: 0.25rem;
+    }
+  }
+  
+  a {
+    border: 1px solid rgba(255, 255, 255, 0);
+    color: white;
+    font-weight: 200;
+    letter-spacing: 0.15em;
+    padding: 0.2em 1em;    
+    text-decoration: none;
+
+    &:hover {
+      background-color: white;
+      color: black;
+      font-weight: 300;
+      padding: 0.2em 1em;    
+      padding-inline: 1em;  
+    }
+  }
+
+  .actif {
+    background-color: white;
+    color: black;
+    font-weight: 400;
+    padding: 0.2em 1em;    
+    padding-inline: 1em;  
+
+    &:hover {
+      font-weight: 400;
+    }
+  }
+}
+
+
+// PIER-ALEXANDRE --------------------------
+#membre1 {
+
+  // HEADER
+  .membre1 {
+    background-color: lightcoral;
+  }
+
+}
+
+
+// ALEXANDRE -------------------------------
+#membre2 {
+
+  // HEADER
+  .membre2 {
+    background-color: lightgreen;    
+  }
+
+}
+
+
+// BENOÎT ----------------------------------
+#membre3 {
+
+  // HEADER
+  .membre3 {
+    background-color: lightblue;    
+  }
+
+}
+
+
+// JACQUELINE ------------------------------
+#membre4 {
+
+  // HEADER
+  .membre4 {
+    background-color: lightpink;
+  }
+
+}
+
+
+// PATRICIA --------------------------------
+#membre5 {
+
+  // HEADER
+  .membre5 {
+    background-color: lightseagreen;    
+  }
+
+}  

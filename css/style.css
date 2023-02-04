@@ -1,56 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900");
 body {
-    font-family: Arial, sans-serif;
-    margin: 0px;
-  }
-  
-  header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-  }
-  
-  nav {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-  }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-  }
-  
-  nav li {
-    margin-right: 20px;
-  }
-  
-  main {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 50px;
-  }
-  
-  section {
-    width: 60%;
-    margin: 20px;
-    padding: 20px;
-    text-align: left;
-  }
+  font-family: Arial, sans-serif;
+  margin: 0px;
+}
 
-  .membre1 {
-    background-color: lightcoral;    
-  }
-  .membre2 {
-    background-color: lightgreen;    
-  }
-  .membre3 {
-    background-color: lightblue;    
-  }
-  .membre4 {
-    background-color: lightgoldenrodyellow;    
-  }
-  .membre5 {
-    background-color: lightseagreen;    
-  }
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 13em;
+  width: 100vw;
+}
+header nav {
+  display: flex;
+  justify-content: center;
+}
+header nav ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+  -webkit-padding-start: 0px;
+          padding-inline-start: 0px;
+  margin-bottom: 0px;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+section {
+  width: 60%;
+  margin: 20px;
+  padding: 20px;
+  text-align: left;
+}
+
+header#accueil,
+#membre4 > header,
+#membre5 > header {
+  background-color: #111;
+  color: white;
+  font-family: "Heebo", sans-serif;
+  letter-spacing: 0.2rem;
+}
+header#accueil h1,
+#membre4 > header h1,
+#membre5 > header h1 {
+  font-weight: 200;
+}
+header#accueil h2,
+#membre4 > header h2,
+#membre5 > header h2 {
+  font-weight: 200;
+  letter-spacing: 0.2rem;
+}
+header#accueil h2 span,
+#membre4 > header h2 span,
+#membre5 > header h2 span {
+  color: greenyellow;
+  font-weight: 300;
+  letter-spacing: 0.25rem;
+}
+header#accueil a,
+#membre4 > header a,
+#membre5 > header a {
+  border: 1px solid rgba(255, 255, 255, 0);
+  color: white;
+  font-weight: 200;
+  letter-spacing: 0.15em;
+  padding: 0.2em 1em;
+  text-decoration: none;
+}
+header#accueil a:hover,
+#membre4 > header a:hover,
+#membre5 > header a:hover {
+  background-color: white;
+  color: black;
+  font-weight: 300;
+  padding: 0.2em 1em;
+  padding-inline: 1em;
+}
+header#accueil .actif,
+#membre4 > header .actif,
+#membre5 > header .actif {
+  background-color: white;
+  color: black;
+  font-weight: 400;
+  padding: 0.2em 1em;
+  padding-inline: 1em;
+}
+header#accueil .actif:hover,
+#membre4 > header .actif:hover,
+#membre5 > header .actif:hover {
+  font-weight: 400;
+}
+
+#membre1 .membre1 {
+  background-color: lightcoral;
+}
+
+#membre2 .membre2 {
+  background-color: lightgreen;
+}
+
+#membre3 .membre3 {
+  background-color: lightblue;
+}
+
+#membre4 .membre4 {
+  background-color: lightpink;
+}
+
+#membre5 .membre5 {
+  background-color: lightseagreen;
+}/*# sourceMappingURL=style.css.map */
