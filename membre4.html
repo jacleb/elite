@@ -14,6 +14,7 @@
             <h1>JACQUELINE LEBEL</h1>
             <!-- <h2>&lt;?= aspirante développeuse full-stack ?&gt;</h2> -->
             <!-- <h2>&lt;x-profil :aspiration="$développeuse->full-stack" /&gt;</h2> -->
+            <!-- <h2>{{ $aspiration->développeuse($full_stack) }}</h2> -->
             <h2>
                 <span class="attribut">:aspiration</span>
                 =
@@ -22,7 +23,6 @@
                 <span class="valeur">->full-stack</span>
                 <span class="guillemets">"</span>
             </h2>
-            <!-- <h2>{{ $aspiration->développeuse($full_stack) }}</h2> -->
             <nav>
                 <ul>
                     <li><a href="index.html">ACCUEIL</a></li>
@@ -36,45 +36,62 @@
         </header>
         
         <main>
-            <div>
-                <section class="objectifs">
-                    <h3>OJBECTIFS</h3>
-                    <div>
-                        <h4>Court terme (après la formation)</h4>
-                        <h4>Moyen terme (2-5 ans)</h4>
-                        <h4>Long terme (5-10 ans)</h4>
-                        <h4>Quelles sont vos attentes salariales (faites une recherche sur le salaire moyen du poste et considérez votre expérience)?</h4>
-                    </div>
-                </section>
-                <section class="experience_travail">
-                    <h3>EXPÉRIENCE WEB</h3>
-                    <div>
-                        <h4>Quels sont les logiciels que vous utilisez/préférez?</h4>
-                        <h4>Quels sont les projets sur lesquels vous avez travaillés?</h4>
-                        <h4>Quel est le projet dont vous êtes le plus fier (pourquoi, difficultés rencontrées/solutions et exemple)?
-                        </h4>
-                    </div>
-                </section>
-            </div>
-            <div>
-                <section class="a_propos">
-                    <h3>À PROPOS</h3>
-                    <div>
-                        <h4>Quels sont vos qualités (qu'est-ce que les gens diraient de vous)?</h4>
-                        <h4>Quel est votre défaut (préférable de savoir, mais nécessaire de le mentionner si on ne vous pose pas la question)?</h4>
-                        <h4>Comment aimez-vous travaillez en équipe (aire ouverte au bureau, discord à distance)?</h4>
-                        <h4>Quelle est votre motivation à intégrer le domaine?</h4>
-                        <h4>Quels sont vos intérêts/loisirs particuliers?</h4>
-                    </div>
-                </section>
-                <section class="experience_additionnelles">
-                    <h3>AUTRES EXPÉRIENCES</h3>
-                    <div>
-                        <h4>Quelles sont vos qualifications/certifications additionnelles pertinentes</h4>
-                        <h4>Quels sont vos savoirs-être (ponctualité, organisation, sociabilité, capacité à travailler sous pression/périodes prolongées, service à la clientèle, travail d'équipe, etc.)</h4>
-                    </div>
-                </section>
-            </div>
+            <section class="objectifs">
+                <h3>OJBECTIFS</h3>
+                <div>
+                    <h4>Court terme: </h4>
+                    <p>Obtenir un emploi qui me permettrait d’approfondir mes connaissances en développement Web. Je suis à la recherche d’un emploi au sein d’une compagnie qui partage les même valeurs que moi: le respect, la reconnaissance, le travail d’équipe, la positivité et l’intégrité.</p>
+                    <h4>Moyen terme: </h4>
+                    <p>Je souhaite de bien m'établir au sein d’une compagnie tout en continuant mon apprentissage en développement Web.</p>
+                    <h4>Long terme: </h4>
+                    <p>Je souhaite travailler sur des projets qui me passionnent et devenir un mentor pour un développeur junior.</p>
+                    <h4>Attentes salariales:</h4>
+                    <p>65 000$ à 35h/semaine en mode hybride avec 3 semaines de vacances.</p>
+                </div>
+            </section>
+            
+            <section class="experience_travail">
+                <h3>EXPÉRIENCE WEB</h3>
+                <div>
+                    <h4>Logiciels que vous utilisez/préférez:</h4>
+                    <p>Logiciels : Visual Studio Code</p>
+                    <p>Frameworks : Vue.js, Laravel, Bootstrap</p>
+                    <h4>Projets sur lesquels vous avez travaillés:</h4>
+                    <p>Projets d’école dont Projet Web 1, un gros projet de site Web d’un restaurant fictif.</p>
+                    <h4>Projet dont vous êtes le plus fier:</h4>
+                    <p>Projet Web 1</p>
+                    <p>J’ai adoré travailler en développement full-stack, c’est-à-dire travailler sur le front-end et le back-end du projet. J’ai apprécié solutionner les défis de UX/UI et de fonctionnalités.</p>
+                    <p>Manque de temps pour le refactoring et l’aspect responsive du site. Je vais continuer à travailler sur le site sur mon temps personnel afin de pouvoir compléter le projet à la hauteur que j’espérais car c’est un projet qui m’inspire et qui me passionne!</p>
+                </div>
+            </section>
+
+            <section class="a_propos">
+                <h3>À PROPOS</h3>
+                <div>
+                    <h4>Qualités:</h4>
+                    <p>Intelligence émotionnelle, persévérante et déterminée, créative, structurée, positive, reconnaissante, à l’écoute des autres.</p>
+                    <h4>Défaut:</h4>
+                    <p>Difficulté de lâcher-prise</p>
+                    <h4>Travail d'équipe:</h4>
+                    <p>J’adore le concept du travail d’équipe dans un bureau à aire ouverte. Tandis que j’aimerais travailler en mode hybride (2 jours par semaine à la maison), des vidéos conférences au besoin seraient idéals avec un plateforme pour bien communiquer avec mes collègues.</p>
+                    <h4>Motivation à intégrer le domaine:</h4>
+                    <p>Le côté créatif, structuré et curieux de développer des projets Web m'intriguent énormément. L'avenir repose sur la technologie alors c'est le moment parfait de m'intégrer dans le domaine!</p>
+                    <h4>Intérêts/loisirs particuliers:</h4>
+                    <p>Le cinéma, mais plus précisément les animations de Disney et les films de Wes Anderson. Également, le ski alpin, jouer au Mario Kart et prendre des grandes marches en écoutant de la musique.</p>
+                </div>
+            </section>
+
+            <section class="experience_additionnelles">
+                <h3>AUTRES EXPÉRIENCES</h3>
+                <div>
+                    <h4>Qualifications/certifications additionnelles pertinentes:</h4>
+                    <p>Bonne maîtrise des langages de HTML, CSS, JavaScript, PHP, SQL et le système de gestion MySQL ainsi que la méthodologie MVC</p>
+                    <p>Baccalauréat en Arts (profil cinématographique).</p>
+                    <p>Future diplômée de l’AEC en Conception et programmation de sites Web.</p>
+                    <h4>Savoirs-être:</h4>
+                    <p>Je suis une personne patiente, organisée, et sociable. J'ai des excellentes aptitudes pour service à la clientèle, le travail d’équipe, ainsi que pour la capacité à travailler sous pression.</p>
+                </div>
+            </section>
         </main>
         
     </div>

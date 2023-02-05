@@ -131,18 +131,25 @@ header#accueil .actif:hover,
   background: #111;
   flex-wrap: wrap;
   font-family: "Heebo", sans-serif;
-  gap: 5px;
   margin: 1rem;
 }
 #membre4 main section {
-  height: 42vh;
   width: 42vw;
+}
+#membre4 main section div {
+  padding: 2rem;
 }
 #membre4 main section h3 {
   font-weight: 500;
   color: rgba(0, 0, 0, 0.5);
-  margin-top: 0;
+  margin: 1rem 1rem 0 0;
   text-align: right;
+}
+#membre4 main section h4 {
+  margin-bottom: 0;
+}
+#membre4 main section p {
+  margin-top: 0.25rem;
 }
 #membre4 main .objectifs {
   background-color: rgb(128, 219, 255);
