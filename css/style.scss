@@ -15,7 +15,7 @@ header {
   // AJOUT au template
   height: 13em;
   width: 100%;
-  
+
   nav {
     display: flex;
     justify-content: center;
@@ -48,13 +48,13 @@ section {
 
 
 // ACCUEIL -----------------------------------
-header#accueil, 
+header#accueil,
 #membre4>header {
   background-color: #111;
   color: white;
   font-family: 'Heebo', sans-serif;
   letter-spacing: 0.20rem;
-  
+
   h1 {
     font-weight: 200;
   }
@@ -62,28 +62,28 @@ header#accueil,
   h2 {
     font-weight: 200;
     letter-spacing: 0.2rem;
-    
+
     span {
       color: greenyellow;
       font-weight: 300;
       letter-spacing: 0.25rem;
     }
   }
-  
+
   a {
     border: 1px solid rgba(255, 255, 255, 0);
     color: white;
     font-weight: 200;
     letter-spacing: 0.15em;
-    padding: 0.2em 1em;    
+    padding: 0.2em 1em;
     text-decoration: none;
 
     &:hover {
       background-color: white;
       color: black;
       font-weight: 300;
-      padding: 0.2em 1em;    
-      padding-inline: 1em;  
+      padding: 0.2em 1em;
+      padding-inline: 1em;
     }
   }
 
@@ -91,8 +91,8 @@ header#accueil,
     background-color: white;
     color: black;
     font-weight: 400;
-    padding: 0.2em 1em;    
-    padding-inline: 1em;  
+    padding: 0.2em 1em;
+    padding-inline: 1em;
 
     &:hover {
       font-weight: 400;
@@ -117,7 +117,7 @@ header#accueil,
 
   // HEADER
   .membre2 {
-    background-color: lightgreen;    
+    background-color: lightgreen;
   }
 
 }
@@ -128,7 +128,7 @@ header#accueil,
 
   // HEADER
   .membre3 {
-    background-color: lightblue;    
+    background-color: lightblue;
   }
 
 }
@@ -153,23 +153,23 @@ header#accueil,
       font-weight: 300;
 
       .attribut {
-        color:rgb(198, 136, 255);
+        color: rgb(198, 136, 255);
       }
 
       .guillemets {
         color: rgb(255, 167, 135);
       }
-      
+
       .variable {
         color: rgb(183, 255, 74);
       }
 
       .valeur {
-        color:rgb(128, 219, 255);
+        color: rgb(128, 219, 255);
       }
     }
   }
-  
+
   //MAIN
   main {
     background: #111;
@@ -177,83 +177,159 @@ header#accueil,
     font-family: 'Heebo', sans-serif;
     margin: 1rem;
 
-      section {
-        width: 42vw;
+    section {
+      width: 42vw;
 
-        div {
-          padding: 2rem;
-        }
-        
+      div {
+        padding: 2rem;
+      }
+
+      h3 {
+        font-weight: 500;
+        color: rgba(0, 0, 0, 0.5);
+        margin: 1rem 1rem 0 0;
+        text-align: right;
+      }
+
+      h4 {
+        margin-bottom: 0;
+      }
+
+      p {
+        margin-top: 0.25rem,
+      }
+    }
+
+    .objectifs {
+      background-color: rgb(128, 219, 255);
+
+      &:hover {
+        box-shadow: 0 0 1rem rgba(128, 219, 255, 0.75);
+
         h3 {
-          font-weight: 500;
-          color: rgba(0, 0, 0, 0.5);
-          margin: 1rem 1rem 0 0;
-          text-align: right;
-        }
-
-        h4 {
-          margin-bottom: 0;
-        }
-
-        p {
-          margin-top: 0.25rem,
-        }
-      }
-  
-      .objectifs {
-        background-color: rgb(128, 219, 255);
-
-        &:hover {
-          box-shadow: 0 0 1rem rgba(128, 219, 255, 0.75);
-          h3 {
-            color: rgba(0, 0, 0, 0.75);
-          }
-        }
-      }
-      
-      .a_propos {
-        background-color: rgb(198, 136, 255);
-
-        &:hover {
-          box-shadow: 0 0 0.6rem rgba(198, 136, 255, 0.75);
-          h3 {
-            color: rgba(0, 0, 0, 0.75);
-          }
-        }
-      }      
-      
-      .experience_travail {
-        background-color: rgb(183, 255, 74);
-
-        &:hover {
-          box-shadow: 0 0 0.6rem rgba(183, 255, 74, 0.75);
-          h3 {
-            color: rgba(0, 0, 0, 0.75);
-          }
-        }
-      }
-  
-      .experience_additionnelles {
-        background-color: rgb(255, 167, 135);
-        
-        &:hover {
-          box-shadow: 0 0 0.8rem rgba(255, 167, 135, 0.75);
-          h3 {
-            color: rgba(0, 0, 0, 0.75);
-          }
+          color: rgba(0, 0, 0, 0.75);
         }
       }
     }
-    
+
+    .a_propos {
+      background-color: rgb(198, 136, 255);
+
+      &:hover {
+        box-shadow: 0 0 0.6rem rgba(198, 136, 255, 0.75);
+
+        h3 {
+          color: rgba(0, 0, 0, 0.75);
+        }
+      }
+    }
+
+    .experience_travail {
+      background-color: rgb(183, 255, 74);
+
+      &:hover {
+        box-shadow: 0 0 0.6rem rgba(183, 255, 74, 0.75);
+
+        h3 {
+          color: rgba(0, 0, 0, 0.75);
+        }
+      }
+    }
+
+    .experience_additionnelles {
+      background-color: rgb(255, 167, 135);
+
+      &:hover {
+        box-shadow: 0 0 0.8rem rgba(255, 167, 135, 0.75);
+
+        h3 {
+          color: rgba(0, 0, 0, 0.75);
+        }
+      }
+    }
+  }
+
 }
 
 
 // PATRICIA --------------------------------
-#membre5 {
 
-  // HEADER
-  .membre5 {
-    background-color: lightseagreen;    
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+#membre5 {
+  background-color: #222;
+  color: #f8f8f8;
+  font-family: 'Montserrat', sans-serif;
+
+  header.membre5 {
+    h1 {
+      padding-top: 80px;
+      font-size: 3rem;
+      font-family: 'Style Script', cursive;
+      margin-top: 50px;
+      margin-bottom: 0;
+
+      span.prenom {
+        color: #358085;
+      }
+
+      span.nom {
+        color: #a04970;
+      }
+    }
+
+    h2 {
+      margin-top: 0;
+      margin-bottom: 50px;
+      font-weight: 400;
+      font-size: 1.3rem;
+    }
+
+    nav {
+      width: 100%;
+      background-image: linear-gradient(to right, #a04970, #358085);
+      position: fixed;
+
+      ul {
+        margin: 20px 0;
+
+        a {
+          color: #f8f8f8;
+          text-decoration: none;
+
+          &:hover {
+            color: #222;
+          }
+
+          &.actif {
+            font-weight: 700;
+            color: #222;
+          }
+        }
+      }
+    }
   }
 
-}  
+  main {
+    line-height: 140%;
+
+    h3 {
+      font-size: 1.5rem;
+      color: #a04970;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #a04970;
+      text-transform: uppercase;
+    }
+
+    h4 {
+      color: #358085;
+    }
+
+    h5 {
+      margin-bottom: 0;
+      font-size: 1rem;
+      margin-left: -1em;
+    }
+  }
+}

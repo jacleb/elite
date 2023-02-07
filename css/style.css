@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900");
+@import url("https://fonts.googleapis.com/css2?family=Style+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
 body {
   font-family: Arial, sans-serif;
   margin: 0px;
@@ -188,6 +190,64 @@ header#accueil .actif:hover,
   color: rgba(0, 0, 0, 0.75);
 }
 
-#membre5 .membre5 {
-  background-color: lightseagreen;
+#membre5 {
+  background-color: #222;
+  color: #f8f8f8;
+  font-family: "Montserrat", sans-serif;
+}
+#membre5 header.membre5 h1 {
+  padding-top: 80px;
+  font-size: 3rem;
+  font-family: "Style Script", cursive;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+#membre5 header.membre5 h1 span.prenom {
+  color: #358085;
+}
+#membre5 header.membre5 h1 span.nom {
+  color: #a04970;
+}
+#membre5 header.membre5 h2 {
+  margin-top: 0;
+  margin-bottom: 50px;
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+#membre5 header.membre5 nav {
+  width: 100%;
+  background-image: linear-gradient(to right, #a04970, #358085);
+  position: fixed;
+}
+#membre5 header.membre5 nav ul {
+  margin: 20px 0;
+}
+#membre5 header.membre5 nav ul a {
+  color: #f8f8f8;
+  text-decoration: none;
+}
+#membre5 header.membre5 nav ul a:hover {
+  color: #222;
+}
+#membre5 header.membre5 nav ul a.actif {
+  font-weight: 700;
+  color: #222;
+}
+#membre5 main {
+  line-height: 140%;
+}
+#membre5 main h3 {
+  font-size: 1.5rem;
+  color: #a04970;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #a04970;
+  text-transform: uppercase;
+}
+#membre5 main h4 {
+  color: #358085;
+}
+#membre5 main h5 {
+  margin-bottom: 0;
+  font-size: 1rem;
+  margin-left: -1em;
 }/*# sourceMappingURL=style.css.map */
