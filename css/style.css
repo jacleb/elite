@@ -91,6 +91,10 @@ header#accueil .actif:hover,
   font-weight: 400;
 }
 
+.image {
+  margin-top: 2rem;
+}
+
 #membre1 .membre1 {
   background-color: lightcoral;
 }

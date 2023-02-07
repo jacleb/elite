@@ -6,20 +6,27 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body>
-    <header id="accueil">
-      <h1>TP1 - Création d'un profil web</h1> 
-      <h2>L'équipe <span>ÉLITE</span></h2>     
-      <nav>
-        <ul>
-          <li><a href="index.html" class="actif">ACCUEIL</a></li>
-          <li><a href="membre1.html">PIER-ALEXANDRE</a></li>
-          <li><a href="membre2.html">ALEXANDRE</a></li>
-          <li><a href="membre3.html">BENOÎT</a></li>
-          <li><a href="membre4.html">JACQUELINE</a></li>
-          <li><a href="membre5.html">PATRICIA</a></li>
-        </ul>
-      </nav>
-    </header>
-    
+    <div id="app">
+      <header id="accueil">
+        <h1>TP1 - Création d'un profil web</h1>
+        <h2>L'équipe <span>ÉLITE</span></h2>
+        <nav>
+          <ul>
+            <li><a href="index.html" class="actif" @mouseover="changerImage('medias/test.webp')">ACCUEIL</a></li>
+            <li><a href="membre1.html" @mouseover="changerImage('medias/test1.webp')">PIER-ALEXANDRE</a></li>
+            <li><a href="membre2.html" @mouseover="changerImage('medias/test2.webp')">ALEXANDRE</a></li>
+            <li><a href="membre3.html" @mouseover="changerImage('medias/test3.webp')">BENOÎT</a></li>
+            <li><a href="membre4.html" @mouseover="changerImage('medias/jacqueline.jpg')">JACQUELINE</a></li>
+            <li><a href="membre5.html" @mouseover="changerImage('medias/test5.webp')">PATRICIA</a></li>
+          </ul>
+        </nav>
+      </header>
+      <main>
+        <div class="image">
+          <img :src="image" alt="">
+        </div>
+      </main>
+    </div>
+    <script src="js/main.js" type="module"></script>
   </body>
 </html>
