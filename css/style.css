@@ -93,12 +93,29 @@ header#accueil .actif:hover,
   font-weight: 400;
 }
 
+<<<<<<< HEAD
 .image {
   margin-top: 2rem;
 }
 
+=======
+#membre1 {
+  background-color: #353535;
+  color: #d9d9d9;
+}
+>>>>>>> PaDev
 #membre1 .membre1 {
-  background-color: lightcoral;
+  background-color: #3c6e71;
+}
+#membre1 .membre1 a {
+  text-decoration: none;
+  color: #d9d9d9;
+}
+#membre1 main section h3 {
+  margin-bottom: 0px;
+}
+#membre1 main section .ligne {
+  margin-top: 0px;
 }
 
 #membre2 .membre2 {
