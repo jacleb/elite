@@ -93,17 +93,14 @@ header#accueil .actif:hover,
   font-weight: 400;
 }
 
-<<<<<<< HEAD
 .image {
   margin-top: 2rem;
 }
 
-=======
 #membre1 {
   background-color: #353535;
   color: #d9d9d9;
 }
->>>>>>> PaDev
 #membre1 .membre1 {
   background-color: #3c6e71;
 }
