@@ -48,8 +48,9 @@ section {
 
 
 // ACCUEIL -----------------------------------
-header#accueil,
-#membre4>header {
+header#accueil, 
+#membre4>header,
+#membre3>header {
   background-color: #111;
   color: white;
   font-family: 'Heebo', sans-serif;
@@ -155,7 +156,8 @@ header#accueil,
 
   // HEADER
   .membre3 {
-    background-color: lightblue;
+    background-color: #111;
+    color: #fff;    
   }
 
 }
