@@ -4,7 +4,6 @@ const image = ref("medias/test.webp")
 
 function changerImage(src){
     image.value = src
-    console.log(image)
 }
 
 const root = {
