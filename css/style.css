@@ -42,29 +42,34 @@ section {
 }
 
 header#accueil,
-#membre4 > header {
+#membre4 > header,
+#membre3 > header {
   background-color: #111;
   color: white;
   font-family: "Heebo", sans-serif;
   letter-spacing: 0.2rem;
 }
 header#accueil h1,
-#membre4 > header h1 {
+#membre4 > header h1,
+#membre3 > header h1 {
   font-weight: 200;
 }
 header#accueil h2,
-#membre4 > header h2 {
+#membre4 > header h2,
+#membre3 > header h2 {
   font-weight: 200;
   letter-spacing: 0.2rem;
 }
 header#accueil h2 span,
-#membre4 > header h2 span {
+#membre4 > header h2 span,
+#membre3 > header h2 span {
   color: greenyellow;
   font-weight: 300;
   letter-spacing: 0.25rem;
 }
 header#accueil a,
-#membre4 > header a {
+#membre4 > header a,
+#membre3 > header a {
   border: 1px solid rgba(255, 255, 255, 0);
   color: white;
   font-weight: 200;
@@ -73,7 +78,8 @@ header#accueil a,
   text-decoration: none;
 }
 header#accueil a:hover,
-#membre4 > header a:hover {
+#membre4 > header a:hover,
+#membre3 > header a:hover {
   background-color: white;
   color: black;
   font-weight: 300;
@@ -81,7 +87,8 @@ header#accueil a:hover,
   padding-inline: 1em;
 }
 header#accueil .actif,
-#membre4 > header .actif {
+#membre4 > header .actif,
+#membre3 > header .actif {
   background-color: white;
   color: black;
   font-weight: 400;
@@ -89,7 +96,8 @@ header#accueil .actif,
   padding-inline: 1em;
 }
 header#accueil .actif:hover,
-#membre4 > header .actif:hover {
+#membre4 > header .actif:hover,
+#membre3 > header .actif:hover {
   font-weight: 400;
 }
 
@@ -106,7 +114,8 @@ header#accueil .actif:hover,
 }
 
 #membre3 .membre3 {
-  background-color: lightblue;
+  background-color: #111;
+  color: #fff;
 }
 
 #membre4 .membre4 {
