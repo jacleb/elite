@@ -1,6 +1,6 @@
 import { createApp, ref } from 'https://unpkg.com/vue@3/dist/vue.esm-browser.js'
 
-const image = ref("medias/test.webp")
+const image = ref("medias/gab.jpg")
 
 function changerImage(src){
     image.value = src

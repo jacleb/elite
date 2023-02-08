@@ -50,7 +50,8 @@ section {
 // ACCUEIL -----------------------------------
 header#accueil, 
 #membre4>header,
-#membre3>header {
+#membre3>header,
+#membre1>header {
   background-color: #111;
   color: white;
   font-family: 'Heebo', sans-serif;
@@ -118,6 +119,11 @@ header#accueil,
     a {
       text-decoration: none;
       color: #d9d9d9;
+
+      &:hover {
+        background-color:#353535;
+        color: #d9d9d9;
+      }
     }
   }
 
